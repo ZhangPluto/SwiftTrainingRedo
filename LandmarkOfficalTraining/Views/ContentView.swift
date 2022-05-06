@@ -9,18 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack{
-            MapView()
-                .ignoresSafeArea(edges: .top)
-                .frame(height: 300)
-            CircleImageView()
-                .offset(x: 0, y: -130)
-                .padding(.bottom,-130)
-            TextView()
-            Spacer()
-            
-            
-        }
+        LandmarkListView()
     }
 }
 

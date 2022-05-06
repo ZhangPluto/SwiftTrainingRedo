@@ -8,21 +8,22 @@
 import SwiftUI
 
 struct TextView: View {
+    var landmark : Landmark
     var body: some View {
         VStack(alignment: .leading){
-            Text("Turtle Rock")
+            Text(landmark.name)
                 .font(.title)
             HStack{
-                Text("Joshua Tree National Park")
+                Text(landmark.park)
                 Spacer()
-                Text("California")
+                Text(landmark.state)
             }
             .font(.subheadline)
             .foregroundColor(.secondary)
             Divider()
-            Text("About Turtle Rock")
+            Text("About\(landmark.name)")
                 .font(.title2)
-            Text("Descriptive text goes here")
+            Text(landmark.description)
         }
         .padding()
     }
@@ -30,6 +31,6 @@ struct TextView: View {
 
 struct TextView_Previews: PreviewProvider {
     static var previews: some View {
-        TextView()
+        TextView(landmark: landmarks[0])
     }
 }

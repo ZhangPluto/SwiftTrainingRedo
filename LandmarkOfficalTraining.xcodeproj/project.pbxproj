@@ -19,6 +19,7 @@
 		FD452841282217E0007CAD77 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD452840282217E0007CAD77 /* Landmark.swift */; };
 		FD452843282225C7007CAD77 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD452842282225C7007CAD77 /* TextView.swift */; };
 		FD45284528234D76007CAD77 /* LandmarkListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD45284428234D76007CAD77 /* LandmarkListView.swift */; };
+		FD45284728235E0F007CAD77 /* LandmarkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD45284628235E0F007CAD77 /* LandmarkDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		FD452840282217E0007CAD77 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		FD452842282225C7007CAD77 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		FD45284428234D76007CAD77 /* LandmarkListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkListView.swift; sourceTree = "<group>"; };
+		FD45284628235E0F007CAD77 /* LandmarkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				FD45283C282217C7007CAD77 /* LandmarkRowView.swift */,
 				FD452842282225C7007CAD77 /* TextView.swift */,
 				FD45284428234D76007CAD77 /* LandmarkListView.swift */,
+				FD45284628235E0F007CAD77 /* LandmarkDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD452841282217E0007CAD77 /* Landmark.swift in Sources */,
+				FD45284728235E0F007CAD77 /* LandmarkDetailView.swift in Sources */,
 				FD452843282225C7007CAD77 /* TextView.swift in Sources */,
 				FD45283B282217B6007CAD77 /* CircleImageView.swift in Sources */,
 				FD45280E282215FD007CAD77 /* ContentView.swift in Sources */,
