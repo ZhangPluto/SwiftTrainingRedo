@@ -9,8 +9,10 @@ import SwiftUI
 
 struct LandmarkDetailView: View {
     var landmark: Landmark
+    
     var body: some View {
         ScrollView{
+//        VStack{
             MapView(coordinate: landmark.locationCoordinate)
                 .ignoresSafeArea(edges: .top)
                 .frame(height: 300)
@@ -26,7 +28,9 @@ struct LandmarkDetailView: View {
 }
 
 struct LandmarkDetailView_Previews: PreviewProvider {
+    static let modelData = ModelData()
     static var previews: some View {
-        LandmarkDetailView(landmark: landmarks[0])
+        LandmarkDetailView(landmark: ModelData().landmarks[0])
+            
     }
 }
